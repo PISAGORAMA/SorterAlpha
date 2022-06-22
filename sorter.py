@@ -26,7 +26,7 @@ class Sorter(list, object):
         print(item)
         item.sort()
         print(item)
-    # First appear before sorting 
+    # First appear after sorting 
     
     def __init__(self, item):
         self.sorter(item)
